@@ -25,7 +25,7 @@ Note that you will need to handle cases where not all the data is available. In 
 The books are held in [books.json](books.json). Create React App makes it so that you can import this file and retrieve the data like so:
 
 ```
-import books from './books.json'
+<!-- import books from './books.json' -->
 ```
 
 ## Wireframe
