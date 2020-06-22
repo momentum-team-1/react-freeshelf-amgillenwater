@@ -26,7 +26,7 @@ class App extends React.Component {
           <h1>Freeshelf</h1>
         </Jumbotron>
         {books.map((bookInfo, idx) =>
-          <div key={idx} p={5}>
+          <div key={idx}>
             <Container>
               <Row>
                 <Col xs={12} md={8}><a href={bookInfo.url}><h1>{bookInfo.title}</h1></a>
